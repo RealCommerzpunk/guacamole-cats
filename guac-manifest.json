@@ -6,7 +6,11 @@
         "css/00-icons.css",
         "css/cat-theme.css"
     ],
+    "js": [
+        "js/favicon.js"
+    ],
     "resources": {
+        "resources/images/favicon.svg": "image/svg+xml",
         "resources/images/bg-paws.svg": "image/svg+xml",
         "resources/images/cat-peek.svg": "image/svg+xml",
         "resources/images/login-scene.svg": "image/svg+xml",

@@ -1,0 +1,31 @@
+name: Build
+
+on:
+  push:
+    branches: [main]
+    tags: ['v*']
+  pull_request:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Build .jar
+        run: zip -r -X guacamole-cat-theme.jar guac-manifest.json css js resources translations
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: guacamole-cat-theme
+          path: guacamole-cat-theme.jar
+
+      - name: Release (nur bei Tag v*)
+        if: startsWith(github.ref, 'refs/tags/v')
+        uses: softprops/action-gh-release@v2
+        with:
+          files: guacamole-cat-theme.jar
+          generate_release_notes: true
