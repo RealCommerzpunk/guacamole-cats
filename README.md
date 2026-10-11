@@ -29,7 +29,7 @@ Zum Entfernen die Datei wieder löschen und neu starten.
 Die `.jar` ist nur eine umbenannte ZIP-Datei. Selbst bauen:
 
 ```
-zip -r guacamole-cat-theme.jar guac-manifest.json css js resources translations
+zip -r guacamole-cat-theme.jar guac-manifest.json css html js resources translations
 ```
 
 ### Hinweis
@@ -59,7 +59,7 @@ To remove the theme, delete the file and restart.
 The `.jar` is just a renamed ZIP file. Build it yourself:
 
 ```
-zip -r guacamole-cat-theme.jar guac-manifest.json css js resources translations
+zip -r guacamole-cat-theme.jar guac-manifest.json css html js resources translations
 ```
 
 ### Note

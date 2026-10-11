@@ -1,0 +1,8 @@
+<!-- Dezente Katzenpfote oben in der Mitte der Verbindungsansicht:
+     öffnet/schließt das Guacamole-Menü (sonst nur per Strg+Alt+Umschalt). -->
+<meta name="after-children" content=".client-view">
+
+<button type="button" class="cat-menu-paw" tabindex="-1"
+        title="Guacamole-Menü / Guacamole menu (Ctrl+Alt+Shift)"
+        aria-label="Guacamole-Menü"
+        ng-click="$root.$broadcast('guacToggleMenu'); $event.currentTarget.blur()"></button>

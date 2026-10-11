@@ -16,7 +16,7 @@ jobs:
       - uses: actions/checkout@v4
 
       - name: Build .jar
-        run: zip -r -X guacamole-cat-theme.jar guac-manifest.json css js resources translations
+        run: zip -r -X guacamole-cat-theme.jar guac-manifest.json css html js resources translations
 
       - uses: actions/upload-artifact@v4
         with:

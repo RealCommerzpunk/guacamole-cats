@@ -24,6 +24,7 @@
     --cat-radius:        0.55em;
     --cat-scene:         url('app/ext/guacamole-cat-theme/resources/images/login-scene.svg');
     --cat-paws:          url('app/ext/guacamole-cat-theme/resources/images/bg-paws.svg');
+    --cat-paw:           url('app/ext/guacamole-cat-theme/resources/images/paw.svg');
     --cat-peek:          url('app/ext/guacamole-cat-theme/resources/images/cat-peek.svg');
 }
 
@@ -170,6 +171,33 @@ button.danger:active, a.button.danger:active { background-color: rgba(229, 100, 
     border-bottom: 1px solid var(--cat-line);
     box-shadow: 0 2px 18px rgba(0, 0, 0, 0.35);
     color: var(--cat-text);
+}
+
+/* Katzenpfote als Menü-Knopf in der Verbindungsansicht (siehe html/client-paw.html) */
+.cat-menu-paw {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    z-index: 50;
+    transform: translateX(-50%);
+    width: 3.2em;
+    height: 1.9em;
+    padding: 0;
+    border: 1px solid var(--cat-line);
+    border-top: none;
+    border-radius: 0 0 0.9em 0.9em;
+    background: rgba(14, 17, 40, 0.55) var(--cat-paw) center / 1.15em no-repeat;
+    box-shadow: none;
+    opacity: 0.3;
+    cursor: pointer;
+    transition: opacity 0.2s, box-shadow 0.2s;
+}
+
+.cat-menu-paw:hover,
+.cat-menu-paw:focus {
+    opacity: 1;
+    background-color: rgba(14, 17, 40, 0.9);
+    box-shadow: 0 2px 14px rgba(244, 184, 96, 0.35);
 }
 
 .header:not(.ng-hide) ~ * .header,
