@@ -1,0 +1,63 @@
+/* AUTOMATISCH ERZEUGT: helle Varianten der dunklen Standard-Icons */
+.user-menu .menu-dropdown .menu-contents li a[href="#/settings/users"], .user-menu .menu-dropdown .menu-contents li a[href="#/settings/connections"], .user-menu .menu-dropdown .menu-contents li a[href="#/settings/sessions"], .user-menu .menu-dropdown .menu-contents li a[href="#/settings/preferences"] { background-image: url('app/ext/guacamole-cat-theme/resources/images/ui/action-icons__guac-config-dark.svg'); }
+.pager .icon.first-page { background-image: url('app/ext/guacamole-cat-theme/resources/images/ui/action-icons__guac-first-page.svg'); }
+a.button.add-connection-group::before { background-image: url('app/ext/guacamole-cat-theme/resources/images/ui/action-icons__guac-group-add.svg'); }
+.form-field .password-field input[type=text] ~ .icon.toggle-password { background-image: url('app/ext/guacamole-cat-theme/resources/images/ui/action-icons__guac-hide-pass.svg'); }
+.user-menu .menu-dropdown .menu-contents li a[href="#/"] { background-image: url('app/ext/guacamole-cat-theme/resources/images/ui/action-icons__guac-home-dark.svg'); }
+.pager .icon.last-page { background-image: url('app/ext/guacamole-cat-theme/resources/images/ui/action-icons__guac-last-page.svg'); }
+.user-menu .menu-dropdown .menu-contents li a.logout { background-image: url('app/ext/guacamole-cat-theme/resources/images/ui/action-icons__guac-logout-dark.svg'); }
+.button.logout::before, button.logout::before { background-image: url('app/ext/guacamole-cat-theme/resources/images/ui/action-icons__guac-logout.svg'); }
+.icon.connection.add { background-image: url('app/ext/guacamole-cat-theme/resources/images/ui/action-icons__guac-monitor-add.svg'); }
+a.button.add-connection::before { background-image: url('app/ext/guacamole-cat-theme/resources/images/ui/action-icons__guac-monitor-add.svg'); }
+.pager .icon.next-page { background-image: url('app/ext/guacamole-cat-theme/resources/images/ui/action-icons__guac-next-page.svg'); }
+.settings.connectionHistory a.history-session-recording::after { background-image: url('app/ext/guacamole-cat-theme/resources/images/ui/action-icons__guac-play-link.svg'); }
+.pager .icon.prev-page { background-image: url('app/ext/guacamole-cat-theme/resources/images/ui/action-icons__guac-prev-page.svg'); }
+.form-field .password-field input[type=password] ~ .icon.toggle-password { background-image: url('app/ext/guacamole-cat-theme/resources/images/ui/action-icons__guac-show-pass.svg'); }
+.icon.user.add { background-image: url('app/ext/guacamole-cat-theme/resources/images/ui/action-icons__guac-user-add.svg'); }
+a.button.add-user::before { background-image: url('app/ext/guacamole-cat-theme/resources/images/ui/action-icons__guac-user-add.svg'); }
+.icon.user-group.add { background-image: url('app/ext/guacamole-cat-theme/resources/images/ui/action-icons__guac-user-group-add.svg'); }
+a.button.add-user-group::before { background-image: url('app/ext/guacamole-cat-theme/resources/images/ui/action-icons__guac-user-group-add.svg'); }
+table.sorted th.sort-primary:after { background-image: url('app/ext/guacamole-cat-theme/resources/images/ui/arrows__down.svg'); }
+.menu-dropdown .menu-indicator { background-image: url('app/ext/guacamole-cat-theme/resources/images/ui/arrows__down.svg'); }
+#other-connections .client-panel.hidden .client-panel-handle { background-image: url('app/ext/guacamole-cat-theme/resources/images/ui/arrows__left.svg'); }
+#other-connections .client-panel-handle { background-image: url('app/ext/guacamole-cat-theme/resources/images/ui/arrows__right.svg'); }
+table.sorted th.sort-primary.sort-descending:after { background-image: url('app/ext/guacamole-cat-theme/resources/images/ui/arrows__up.svg'); }
+.manage-user-group .page-tabs .page-list li.linked a[href]:before { background-image: url('app/ext/guacamole-cat-theme/resources/images/ui/checkmark.svg'); }
+.manage-user .page-tabs .page-list li.linked a[href]:before { background-image: url('app/ext/guacamole-cat-theme/resources/images/ui/checkmark.svg'); }
+.button.reconnect::before, button.reconnect::before { background-image: url('app/ext/guacamole-cat-theme/resources/images/ui/circle-arrows.svg'); }
+.loading::before { background-image: url('app/ext/guacamole-cat-theme/resources/images/ui/cog.svg'); }
+#filesystem-menu .header.breadcrumbs .breadcrumb.root { background-image: url('app/ext/guacamole-cat-theme/resources/images/ui/drive.svg'); }
+#guac-menu #devices .device.filesystem { background-image: url('app/ext/guacamole-cat-theme/resources/images/ui/drive.svg'); }
+.file-browser .normal-file > .caption .icon { background-image: url('app/ext/guacamole-cat-theme/resources/images/ui/file.svg'); }
+.file-browser .directory > .caption .icon { background-image: url('app/ext/guacamole-cat-theme/resources/images/ui/folder-closed.svg'); }
+.connection-group > .caption .icon { background-image: url('app/ext/guacamole-cat-theme/resources/images/ui/folder-closed.svg'); }
+.connection-group.expanded > .caption .icon { background-image: url('app/ext/guacamole-cat-theme/resources/images/ui/folder-open.svg'); }
+.file-browser .directory.previous > .caption .icon { background-image: url('app/ext/guacamole-cat-theme/resources/images/ui/folder-up.svg'); }
+.guac-player-text-container .text-controls .fullscreen-button { background-image: url('app/ext/guacamole-cat-theme/resources/images/ui/fullscreen.svg'); }
+.expandable > .caption .icon.expand { background-image: url('app/ext/guacamole-cat-theme/resources/images/ui/group-icons__guac-closed.svg'); }
+.expandable.expanded > .caption .icon.expand { background-image: url('app/ext/guacamole-cat-theme/resources/images/ui/group-icons__guac-open.svg'); }
+.expandable.empty > .caption .icon.expand { background-image: url('app/ext/guacamole-cat-theme/resources/images/ui/group-icons__guac-open.svg'); }
+.manage-user-group .page-tabs .page-list li.read-only a[href]:before { background-image: url('app/ext/guacamole-cat-theme/resources/images/ui/lock.svg'); }
+.manage-user .page-tabs .page-list li.read-only a[href]:before { background-image: url('app/ext/guacamole-cat-theme/resources/images/ui/lock.svg'); }
+.filter .search-string { background-image: url('app/ext/guacamole-cat-theme/resources/images/ui/magnifier.svg'); }
+.manage-user-group .page-tabs .page-list li.unlinked a[href]:before { background-image: url('app/ext/guacamole-cat-theme/resources/images/ui/plus.svg'); }
+.manage-user .page-tabs .page-list li.unlinked a[href]:before { background-image: url('app/ext/guacamole-cat-theme/resources/images/ui/plus.svg'); }
+.transfer.in-progress .progress { background-image: url('app/ext/guacamole-cat-theme/resources/images/ui/progress.svg'); }
+.notification .progress { background-image: url('app/ext/guacamole-cat-theme/resources/images/ui/progress.svg'); }
+.connection .icon.vnc, .connection .icon.rdp { background-image: url('app/ext/guacamole-cat-theme/resources/images/ui/protocol-icons__guac-monitor.svg'); }
+.connection-group.empty.balancer .icon { background-image: url('app/ext/guacamole-cat-theme/resources/images/ui/protocol-icons__guac-monitor.svg'); }
+.user-menu .menu-dropdown .menu-contents li a { background-image: url('app/ext/guacamole-cat-theme/resources/images/ui/protocol-icons__guac-monitor.svg'); }
+.icon.connection { background-image: url('app/ext/guacamole-cat-theme/resources/images/ui/protocol-icons__guac-plug.svg'); }
+.connection .icon { background-image: url('app/ext/guacamole-cat-theme/resources/images/ui/protocol-icons__guac-plug.svg'); }
+.connection .icon.kubernetes, .connection .icon.ssh, .connection .icon.telnet { background-image: url('app/ext/guacamole-cat-theme/resources/images/ui/protocol-icons__guac-text.svg'); }
+.file-upload-container .import-config .help::after { background-image: url('app/ext/guacamole-cat-theme/resources/images/ui/question.svg'); }
+.share-menu .menu-dropdown .menu-title { background-image: url('app/ext/guacamole-cat-theme/resources/images/ui/share.svg'); }
+.sharing-profile .icon { background-image: url('app/ext/guacamole-cat-theme/resources/images/ui/share.svg'); }
+.icon.user-group { background-image: url('app/ext/guacamole-cat-theme/resources/images/ui/user-icons__guac-user-group.svg'); }
+.tiled-client-grid .client-user-count::before { background-image: url('app/ext/guacamole-cat-theme/resources/images/ui/user-icons__guac-user-white.svg'); }
+.icon.user { background-image: url('app/ext/guacamole-cat-theme/resources/images/ui/user-icons__guac-user.svg'); }
+.user-menu .menu-dropdown .menu-title { background-image: url('app/ext/guacamole-cat-theme/resources/images/ui/user-icons__guac-user.svg'); }
+#other-connections .client-panel-connection a[href]::before { background-image: url('app/ext/guacamole-cat-theme/resources/images/ui/warning-white.svg'); }
+#connection-warning::before { background-image: url('app/ext/guacamole-cat-theme/resources/images/ui/warning.svg'); }
+.fatal-page-error h1::before { background-image: url('app/ext/guacamole-cat-theme/resources/images/ui/warning.svg'); }
+.recent-connections .connection .remove-recent::after { background-image: url('app/ext/guacamole-cat-theme/resources/images/ui/x-black.svg'); }
